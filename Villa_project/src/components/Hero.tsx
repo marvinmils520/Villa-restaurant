@@ -1,6 +1,5 @@
 import { useEffect, useRef } from 'react'
-
-const HERO_IMG = 'https://images.unsplash.com/photo-1653259038915-7cf0b7a4dd6c?w=1920&h=1080&fit=crop&auto=format'
+import heroImg from '../assets/hero-main.jpg'
 
 export default function Hero() {
   const parallaxRef = useRef<HTMLDivElement>(null)
@@ -25,7 +24,7 @@ export default function Hero() {
         style={{
           position: 'absolute',
           inset: '-10%',
-          backgroundImage: `url(${HERO_IMG})`,
+          backgroundImage: `url(${heroImg})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           willChange: 'transform',
