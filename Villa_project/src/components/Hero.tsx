@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react'
-import heroImg from '../assets/hero-main.jpg'
+import heroImg from '../assets/hero-dark.png'
 
 export default function Hero() {
   const parallaxRef = useRef<HTMLDivElement>(null)
