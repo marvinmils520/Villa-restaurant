@@ -76,7 +76,7 @@ export default function Location() {
             <div style={{ borderRadius: 8, overflow: 'hidden', background: '#C4B89A', boxShadow: '0 8px 40px rgba(37,37,37,0.1)' }}>
               <iframe
                 title="Villa — ресторан"
-                src="https://yandex.ru/map-widget/v1/?oid=228360196687&ll=37.521489%2C47.089102&z=16.38"
+                src="https://yandex.ru/map-widget/v1/?ll=37.521387%2C47.089019&z=17&pt=37.521387%2C47.089019%2Cpm2rdl"
                 style={{ width: '100%', height: 420, border: 'none', display: 'block', filter: 'sepia(0.3) saturate(0.8) contrast(1.05)' }}
                 loading="lazy"
               />
