@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-serif: 'Raleway', system-ui, sans-serif;
+  --font-sans: 'Raleway', system-ui, sans-serif;
+
+  --color-ivory: #F7F3EA;
+  --color-cream: #F4EEE3;
+  --color-forest: #53593B;
+  --color-olive: #4F6546;
+  --color-charcoal: #252525;
+  --color-gold: #B8944F;
+  --color-gold-light: #D4AE72;
+  --color-muted: #8A8272;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #F7F3EA;
+  color: #252525;
+  -webkit-font-smoothing: antialiased;
+}
+
+em,
+ i {
+  font-family: var(--font-sans);
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: #F7F3EA;
+}
+::-webkit-scrollbar-thumb {
+  background: #B8944F;
+  border-radius: 2px;
+}

@@ -1,0 +1,9 @@
+{
+  "name": "villa-workspace",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix Villa_project run dev -- --host 127.0.0.1 --port 5173",
+    "build": "npm --prefix Villa_project run build",
+    "preview": "npm --prefix Villa_project run preview"
+  }
+}
