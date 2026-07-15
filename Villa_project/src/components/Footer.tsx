@@ -6,10 +6,10 @@ const navLinks = [
   { label: 'Отзывы', id: 'reviews' },
   { label: 'Контакты', id: 'contacts' },
 ]
-const socialLinks = [
-  { label: 'Instagram', href: 'https://instagram.com' },
-  { label: 'Facebook', href: 'https://facebook.com' },
-  { label: 'TripAdvisor', href: 'https://tripadvisor.com' },
+ const socialLinks = [
+  //{ label: 'Instagram', href: 'https://instagram.com' }
+  //{ label: 'Facebook', href: 'https://facebook.com' },
+  //{ label: 'TripAdvisor', href: 'https://tripadvisor.com' },
 ]
 
 export default function Footer() {
@@ -74,7 +74,7 @@ export default function Footer() {
               href="tel:+15552345678"
               style={{ fontFamily: 'var(--font-sans)', fontSize: '0.95rem', fontWeight: 400, color: '#F7F3EA', textDecoration: 'none', display: 'block', marginBottom: '0.75rem' }}
             >
-              +1 (555) 234-5678
+              +7(949)500-07-41
             </a>
             <button
               onClick={() => scrollTo('reservation')}

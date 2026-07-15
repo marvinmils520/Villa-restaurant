@@ -10,9 +10,9 @@ const hours = [
 
 const contacts = [
   { label: 'Телефон', value: '+7 (949) 500-07-41', href: 'tel:+79495000741', icon: '📞' },
-  { label: 'WhatsApp', value: 'Написать', href: 'https://wa.me/79495000741', icon: '💬' },
-  { label: 'Instagram', value: '@villa.restaurant', href: 'https://instagram.com', icon: '📷' },
-  { label: 'Почта', value: 'hello@villa.restaurant', href: 'mailto:hello@villa.restaurant', icon: '✉️' },
+  { label: 'Telegram', value: 'Сообщество', href: 'https://t.me/villamariupol', icon: '💬' },
+  { label: 'Instagram', value: '@villarest.mrpl', href: 'https://www.instagram.com/villarest.mrpl/', icon: '📷' },
+  //{ label: 'Почта', value: 'hello@villa.restaurant', href: 'mailto:hello@villa.restaurant', icon: '✉️' },
 ]
 
 export default function Location() {

@@ -1,4 +1,6 @@
-const ABOUT_IMG = 'https://images.unsplash.com/photo-1709548145082-04d0cde481d4?w=900&h=1100&fit=crop&auto=format'
+import aboutImg from '../assets/about-block.jpg'
+
+const ABOUT_IMG = aboutImg
 
 const pillars = [
   { label: 'Свежие ингредиенты', desc: 'Сезонные продукты от локальных фермеров и проверенных европейских поставщиков.' },

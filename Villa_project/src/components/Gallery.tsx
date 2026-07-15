@@ -1,11 +1,19 @@
+import galleryImg1 from '../assets/gallery-1x7.jpg'
+import galleryImg2 from '../assets/gallery-2x7.jpg'
+import galleryImg3 from '../assets/gallery-3x7.jpg'
+import galleryImg4 from '../assets/gallery-4x7.jpg'
+import galleryImg5 from '../assets/gallery-5x7.jpg'
+import galleryImg6 from '../assets/gallery-6x7.jpg'
+import galleryImg7 from '../assets/gallery-7x7.jpg'
+
 const photos = [
-  { img: 'https://images.unsplash.com/photo-1636405189493-181ecf851006?w=600&h=800&fit=crop&auto=format', alt: 'Restaurant interior with plants', span: 'tall' },
-  { img: 'https://images.unsplash.com/photo-1548428938-b1063c60f386?w=600&h=400&fit=crop&auto=format', alt: 'Wine glasses by candlelight', span: 'normal' },
-  { img: 'https://images.unsplash.com/photo-1689672235271-727de51355e6?w=600&h=400&fit=crop&auto=format', alt: 'Premium plated dish with wine', span: 'normal' },
-  { img: 'https://images.unsplash.com/photo-1698265473208-ef2e5934e93c?w=600&h=400&fit=crop&auto=format', alt: 'Two glasses on table setting', span: 'normal' },
-  { img: 'https://images.unsplash.com/photo-1774509619298-5ee42287b75b?w=600&h=800&fit=crop&auto=format', alt: 'Romantic table set for two with wine', span: 'tall' },
-  { img: 'https://images.unsplash.com/photo-1768508948990-f5866f800fad?w=600&h=400&fit=crop&auto=format', alt: 'Champagne flutes lined at bar', span: 'normal' },
-  { img: 'https://images.unsplash.com/photo-1689672235501-6dc1e56d454c?w=600&h=400&fit=crop&auto=format', alt: 'Food and wine on dinner table', span: 'normal' },
+  { img: galleryImg1, alt: 'Restaurant interior with plants', span: 'tall' },
+  { img: galleryImg2, alt: 'Wine glasses by candlelight', span: 'normal' },
+  { img: galleryImg3, alt: 'Premium plated dish with wine', span: 'normal' },
+  { img: galleryImg4, alt: 'Two glasses on table setting', span: 'normal' },
+  { img: galleryImg7, alt: 'Romantic table set for two with wine', span: 'tall' },
+  { img: galleryImg5, alt: 'Champagne flutes lined at bar', span: 'normal' },
+  { img: galleryImg6, alt: 'Food and wine on dinner table', span: 'normal' },
 ]
 
 export default function Gallery() {
